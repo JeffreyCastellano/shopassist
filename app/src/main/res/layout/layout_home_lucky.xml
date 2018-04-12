@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.FeelingLuckyCard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    >
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+        android:layout_marginLeft="8dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/home_lucky_content_layout"
+            >
+
+            <ImageView style="@style/ImageFullWidth"
+                android:id="@+id/home_lucky"
+                android:src="@drawable/home_lucky"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="false"
+                android:focusable="true"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical"
+                android:id="@+id/layout_lucky_expanded"
+                >
+
+                <ImageButton style="@style/ImageFullWidth"
+
+                    android:src="@drawable/home_lucky_expand_1"
+                    android:id="@+id/img_lucky_expand"
+                    android:background="@drawable/ripple_image"
+                    android:clickable="false"
+                    android:focusable="true"
+
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home_lucky_expand_footer"
+                    android:id="@+id/btn_lucky_show_another"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:clickable="false"
+                    android:focusable="true"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.FeelingLuckyCard>

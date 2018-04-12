@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.ExploreStoreLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gsa_bg"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE"
+        android:layout_marginTop="-24dp"
+        >
+
+
+
+        <com.fa.google.shopassist.FadeInLinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEEEEE"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView style="@style/ImageFullWidth"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/explore_wholefoods_1"
+                    android:id="@+id/img_explore_store_1"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="16dp"
+                >
+
+                <ImageView style="@style/ImageFullWidth"
+                    android:src="@drawable/explore_store_address_target"
+                    android:layout_width="match_parent"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="121dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+
+                    >
+
+                <ImageButton
+                    style="@style/Image"
+                    android:src="@drawable/home_store_map_wholefoods"
+                    android:id="@+id/btn_store_map"
+                    android:onClick="onCardSectionClicked"
+                    android:layout_weight=".5"
+                    android:scaleType="centerCrop"
+                    android:layout_marginRight="2dp"
+                    android:background="@color/transparent"
+                    />
+
+                <ImageButton
+                    style="@style/Image"
+                    android:src="@drawable/home_photo_gallery_wholefoods"
+                    android:id="@+id/btn_photo_gallery"
+                    android:layout_weight=".5"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="2dp"
+                    android:background="@color/transparent"
+                    />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#EEEEEE"
+                >
+
+                <ImageView
+
+                   style="@style/ImageFullWidth"
+                    android:src="@drawable/img_explore_2_wholefoods"
+                    />
+                <!--Layout -->
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Now Playing"
+                        android:textColor="@color/gsa_gray_dark"
+                        android:fontFamily="sans-serif"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_weight="1"
+                        android:layout_marginTop="25dp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="19dp"
+
+                        >
+
+
+                        <ImageView
+                            android:src="@drawable/img_explore_now_playing_wholefoods"
+                            android:id="@+id/img_explore_now_playing"
+                            style="@style/ImageFullWidth"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="8dp"
+
+                            android:layout_centerHorizontal="true"
+                            />
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="30dp"
+                            android:id="@+id/img_sound_spectrum"
+                            android:layout_alignBottom="@+id/img_explore_now_playing"
+                            android:layout_alignRight="@+id/img_explore_now_playing"
+                            />
+
+
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/img_explore_store_bottom_wholefoods"
+                    />
+
+            </LinearLayout>
+
+
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+    </ScrollView>
+
+</com.fa.google.shopassist.ExploreStoreLayout>

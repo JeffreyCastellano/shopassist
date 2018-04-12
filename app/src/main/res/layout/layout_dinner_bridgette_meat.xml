@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.InSeasonCard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+
+    >
+    <!--android:onClick="onCardClicked"-->
+
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:text="Dinner with Brigette"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="17dp"
+                android:textColor="@color/gsa_gray_darkest"
+                android:fontFamily="sans-serif-light"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Based on "
+                    android:textColor="@color/gsa_gray_dark"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="3dp"
+                    android:text="your and Brigette’s preferences"
+                    android:textColor="@color/gsa_green"
+                    />
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            >
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_calendar_mini"
+                android:layout_gravity="center_vertical"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:text="8:00 PM today "
+                android:textColor="@color/gsa_gray"
+                />
+        </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_marginTop="19dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gsa_divider"
+                    android:layout_marginTop="0dp"
+                    ></View>
+
+
+                    <ImageView style="@style/Image"
+                    android:src="@drawable/img_meat_buckwheat"
+                    android:layout_gravity="left"
+                    />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginLeft="112dp"
+                        android:layout_centerVertical="true"
+                        >
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16sp"
+                            android:text="Steak and Buckwheat Soba Stir Fry"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="25dp"
+                            android:textColor="@color/gsa_gray_darkest"
+                            />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            >
+                            <ImageView
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_mini_cart"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="6dp"
+                                android:text="Carrots"
+                                android:textStyle="italic"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textColor="@color/gsa_gray"
+                                />
+
+                            <ImageView
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_dropper_mini"
+                                android:layout_marginLeft="10dp"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="6dp"
+                                android:text="Meat"
+                                android:textStyle="italic"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textColor="@color/gsa_gray"
+                                />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:layout_marginLeft="10dp"
+                                android:text="Gluten-Free"
+                                android:textStyle="italic"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textColor="@color/gsa_gray"
+                                />
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"
+                android:layout_marginTop="0dp"
+                ></View>
+
+
+
+            <ImageView style="@style/Image"
+                    android:src="@drawable/img_couscous_th"
+                    android:layout_gravity="left"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_marginLeft="112dp"
+                    android:layout_centerVertical="true"
+
+                    android:layout_gravity="left|center_vertical"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Pickled Shrimp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/gsa_gray_darkest"
+                         />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:text="Brigette +1’d this recipe"
+                            android:textStyle="italic"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/gsa_gray"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/layout_teriyaki"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gsa_divider"
+                    android:layout_marginTop="0dp"
+                    ></View>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gsa_divider"
+                    android:layout_marginTop="95dp"
+
+                    ></View>
+
+                <ImageView style="@style/Image"
+                    android:src="@drawable/img_teriyaki_th"
+                    android:layout_gravity="left"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:layout_marginLeft="112dp"
+                    android:layout_centerVertical="true"
+
+                    android:layout_gravity="left|center_vertical"
+                    >
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:text="Teriyaki Tofu and\nMushrooms"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/gsa_gray_darkest"
+                         />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        >
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_mini_cart"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="8dp"
+                            android:text="Tofu"
+                            android:textStyle="italic"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/gsa_gray"
+                            />
+
+                        <ImageView
+                            android:layout_gravity="center_vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_email_mini"
+                            android:layout_marginLeft="12dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:layout_marginLeft="8dp"
+                            android:text="Brigette sent you this"
+                            android:textStyle="italic"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textColor="@color/gsa_gray"
+                            />
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:id="@+id/layout_product_expand"
+                android:clickable="true"
+                android:background="@drawable/ripple_image"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_chevron"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/img_product_chevron"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show more"
+                    android:id="@+id/text_product_more"
+                    android:textColor="@color/gsa_gray"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expandable_layout_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView style="@style/TappableImage"
+                    android:src="@drawable/home_3_expand_a"
+                    android:id="@+id/btn_img_card3"
+                    />
+
+                <ImageView style="@style/TappableImage"
+                    android:src="@drawable/home_3_expand_b"
+                    android:id="@+id/btn_img_card4"
+                    />
+
+                <ImageView style="@style/TappableImage"
+                    android:src="@drawable/home_show_less"
+                    android:id="@+id/expandable_layout_collapse"
+                    />
+
+            </LinearLayout>
+
+       </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.InSeasonCard>

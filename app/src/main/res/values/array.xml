@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="home">
+        <item>@layout/layout_home_explore_store</item>
+        <item>@layout/layout_card_home_nexus6</item>
+        <item>@layout/layout_tech_for_travel</item>
+        <item>@layout/layout_gift_for_tim</item>
+        <!--<item>@layout/layout_home_google_nearby</item>-->
+        <item>@layout/layout_home_events</item>
+        <item>@layout/layout_associates_available</item>
+        <item>@layout/layout_home_lucky</item>
+    </integer-array>
+
+    <integer-array name="home_target">
+        <item>@layout/layout_home_explore_store</item>
+        <item>@drawable/home_target_2</item>
+        <item>@drawable/home_target_3</item>
+        <item>@drawable/home_target_4</item>
+        <item>@drawable/home_target_5</item>
+        <item>@drawable/home_target_6</item>
+        <item>@drawable/home_target_7</item>
+        <item>@drawable/home_target_reminder</item>
+        <item>@drawable/home_target_8</item>
+
+        <item>@layout/layout_home_lucky</item>
+    </integer-array>
+
+    <integer-array name="home_whole_foods">
+        <item>@layout/layout_home_explore_store</item>
+        <item>@drawable/home_whole_2</item>
+        <item>@layout/layout_wholefoods_home_availlable_here</item>
+        <item>@drawable/home_whole_3</item>
+        <item>@drawable/home_whole_4</item>
+        <item>@drawable/home_whole_5</item>
+        <item>@drawable/home_whole_6</item>
+        <item>@layout/layout_home_lucky</item>
+    </integer-array>
+
+    <integer-array name="bose">
+        <item>@drawable/bose_2</item>
+        <item>@drawable/bose_4</item>
+        <item>@drawable/bose_5</item>
+        <item>@drawable/bose_6</item>
+        <item>@drawable/bose_7</item>
+        <item>@drawable/bose_8</item>
+        <item>@layout/layout_associates_nearby_matthew</item>
+    </integer-array>
+
+    <integer-array name="chromecast">
+        <item>@drawable/chromecast_2</item>
+        <item>@drawable/chromecast_4</item>
+        <item>@drawable/chromecast_5</item>
+        <item>@drawable/chromecast_6</item>
+        <item>@drawable/chromecast_7</item>
+        <item>@drawable/chromecast_8</item>
+        <item>@layout/layout_associates_nearby_matthew</item>
+    </integer-array>
+
+    <integer-array name="lg">
+        <item>@drawable/lg_2</item>
+        <item>@drawable/lg_4</item>
+        <item>@drawable/lg_5</item>
+        <item>@drawable/lg_6</item>
+        <item>@drawable/lg_7</item>
+        <item>@drawable/lg_8</item>
+        <item>@layout/layout_associates_nearby_matthew</item>
+    </integer-array>
+
+    <integer-array name="cognac">
+        <item>@drawable/cognac_2</item>
+        <item>@drawable/cognac_4</item>
+        <item>@drawable/cognac_5</item>
+        <item>@drawable/cognac_7</item>
+        <item>@drawable/cognac_8</item>
+        <item>@layout/layout_associates_nearby_matthew</item>
+    </integer-array>
+
+    <integer-array name="sony">
+        <item>@drawable/sony_2</item>
+        <item>@drawable/sony_4</item>
+        <item>@drawable/sony_5</item>
+        <item>@drawable/sony_6</item>
+        <item>@drawable/sony_7</item>
+        <item>@drawable/sony_8</item>
+        <item>@layout/layout_associates_nearby_matthew</item>
+    </integer-array>
+
+    <integer-array name="nexus5_case">
+        <item>@drawable/nexus5_case_2</item>
+        <item>@drawable/nexus5_case_4</item>
+        <item>@drawable/nexus5_case_5</item>
+        <item>@drawable/nexus5_case_6</item>
+        <item>@drawable/nexus5_case_7</item>
+        <item>@drawable/nexus5_case_8</item>
+        <item>@layout/layout_associates_nearby_jordan</item>
+    </integer-array>
+
+    <integer-array name="nexus6_case">
+        <item>@drawable/nexus6_case_2</item>
+        <item>@drawable/nexus6_case_4</item>
+        <item>@drawable/nexus6_case_5</item>
+        <item>@drawable/nexus6_case_6</item>
+        <item>@drawable/nexus6_case_7</item>
+        <item>@drawable/nexus6_case_8</item>
+        <item>@layout/layout_associates_nearby_jordan</item>
+    </integer-array>
+
+    <integer-array name="nexus">
+        <item>@layout/layout_nexus6_compatibility</item>
+        <item>@layout/layout_nexus_map</item>
+        <item>@layout/layout_nexus6_user_photos</item>
+        <item>@layout/layout_nexus6_user_reviews</item>
+        <item>@layout/layout_nexus6_expert_reviews</item>
+        <item>@layout/layout_nexus6_videos</item>
+        <item>@layout/layout_nexus6_articles</item>
+        <item>@layout/layout_associates_nearby_jordan</item>
+    </integer-array>
+
+
+
+    <integer-array name="galaxys6">
+        <item>@layout/layout_galaxys5_compatibility</item>
+        <item>@drawable/btn_find_in_store</item>
+        <item>@drawable/galaxys6_4</item>
+        <item>@drawable/galaxys5_5</item>
+        <item>@drawable/galaxys6_6</item>
+        <item>@drawable/galaxys6_7</item>
+        <item>@drawable/galaxys6_8</item>
+        <item>@layout/layout_associates_nearby_jordan</item>
+    </integer-array>
+
+    <integer-array name="jacket">
+        <item>@layout/layout_galaxys5_compatibility</item>
+        <item>@drawable/btn_find_in_store</item>
+    </integer-array>
+
+    <integer-array name="moto">
+        <item>@drawable/btn_find_in_store</item>
+        <item>@drawable/moto_2</item>
+        <item>@drawable/moto_4</item>
+        <item>@drawable/moto_5</item>
+        <item>@drawable/moto_7</item>
+        <item>@drawable/moto_8</item>
+        <item>@layout/layout_associates_nearby_jordan</item>
+    </integer-array>
+
+    <integer-array name="associate_list">
+        <item>@layout/layout_associates_list</item>
+    </integer-array>
+
+    <integer-array name="associate_jordan">
+        <item>@layout/associate_jordan</item>
+        <item>@layout/layout_associates_jordan_2</item>
+        <item>@drawable/associates_jordan_3</item>
+        <item>@layout/layout_associates_jordan_4</item>
+        <item>@drawable/associates_jordan_5</item>
+        <item>@layout/layout_associates_jordan_6</item>
+        <item>@drawable/associates_jordan_7</item>
+    </integer-array>
+
+    <integer-array name="associate_matthew">
+        <item>@layout/associate_matthew</item>
+        <item>@drawable/associates_matthew_2</item>
+        <item>@drawable/associates_matthew_3</item>
+        <item>@layout/layout_associates_matthew_4</item>
+        <item>@drawable/associates_matthew_5</item>
+        <item>@layout/layout_associates_matthew_6</item>
+        <item>@drawable/associates_matthew_7</item>
+    </integer-array>
+
+    <integer-array name="srp_queries">
+        <item>@drawable/srp_queries_1</item>
+        <item>@drawable/srp_queries_2</item>
+        <item>@drawable/srp_queries_3</item>
+        <item>@drawable/srp_queries_4</item>
+        <!--<item>@drawable/srp_queries_5</item>-->
+        <item>@drawable/srp_queries_6</item>
+    </integer-array>
+
+    <integer-array name="srp_best_camera">
+        <item>@layout/layout_srp_camera_1</item>
+        <item>@layout/layout_bestcamera_video</item>
+        <item>@drawable/srp_camera_3</item>
+        <item>@drawable/srp_camera_4</item>
+    </integer-array>
+
+    <integer-array name="srp_recipe_dinner_seafood">
+        <item>@layout/layout_dinner_bridgette_seafood</item>
+        <item>@drawable/srp_dinner_2_seafood</item>
+        <item>@drawable/srp_dinner_3</item>
+        <item>@drawable/srp_dinner_4</item>
+    </integer-array>
+
+    <integer-array name="srp_recipe_dinner_meat">
+        <item>@layout/layout_dinner_bridgette_meat</item>
+        <item>@drawable/srp_dinner_2_meat</item>
+        <item>@drawable/srp_dinner_3</item>
+        <item>@drawable/srp_dinner_4</item>
+    </integer-array>
+
+    <integer-array name="srp_best_screen">
+        <item>@layout/layout_srp_screen_1</item>
+        <item>@drawable/srp_screen_2</item>
+        <item>@drawable/srp_screen_3</item>
+    </integer-array>
+
+
+    <integer-array name="srp_how_much_is_nexus">
+        <item>@drawable/srp_cost_1</item>
+        <item>@drawable/srp_cost_2</item>
+    </integer-array>
+
+    <integer-array name="srp_store_hours">
+        <item>@drawable/srp_store_hours</item>
+    </integer-array>
+
+    <integer-array name="srp_thor">
+        <item>@drawable/srp_thors_phone</item>
+    </integer-array>
+
+    <integer-array name="srp_where_is_nexus">
+        <item>@layout/layout_where_is</item>
+    </integer-array>
+
+    <integer-array name="srp_where_is_store">
+        <item>@drawable/srp_where_is_store</item>
+    </integer-array>
+
+    <integer-array name="srp_which_phone">
+        <item>@drawable/srp_phone_reco_1</item>
+        <item>@drawable/srp_phone_reco_2</item>
+        <item>@drawable/srp_phone_reco_3</item>
+        <item>@drawable/srp_phone_reco_4</item>
+        <item>@drawable/srp_phone_reco_5</item>
+    </integer-array>
+
+    <integer-array name="srp_friends_like">
+        <item>@layout/layout_srp_friends_like_1</item>
+    </integer-array>
+
+    <integer-array name="srp_jacket">
+
+        <item>@drawable/srp_jacket_1</item>
+        <item>@layout/layout_jacket_map</item>
+        <!--<item>@drawable/srp_jacket_3</item>-->
+        <item>@drawable/srp_jacket_4</item>
+    </integer-array>
+
+
+    <integer-array name="moto_explore">
+        <item>@drawable/moto_explore_1</item>
+        <item>@drawable/moto_explore_2</item>
+        <item>@drawable/moto_explore_3</item>
+        <item>@drawable/moto_explore_4</item>
+    </integer-array>
+
+    <integer-array name="nexus_explore">
+        <item>@drawable/nexus_explore_1</item>
+        <item>@drawable/nexus_explore_2</item>
+        <item>@drawable/nexus_explore_3</item>
+        <item>@drawable/nexus_explore_4</item>
+    </integer-array>
+
+    <integer-array name="prod_list">
+        <item>@drawable/prod_list_1</item>
+    </integer-array>
+
+    <integer-array name="event">
+        <item>@drawable/event</item>
+    </integer-array>
+
+    <integer-array name="event_confirm">
+        <item>@drawable/event_confirm</item>
+    </integer-array>
+
+    <!-- COMPARE
+    <integer-array name="nexus_compare_results">
+        <item>@drawable/nexus_compare_results_1</item>
+        <item>@drawable/nexus_compare_results_2</item>
+        <item>@drawable/nexus_compare_results_3</item>
+        <item>@drawable/nexus_compare_results_4</item>
+    </integer-array>
+
+
+    <integer-array name="nexus_compare_tap">
+        <item>@drawable/nexus_compare_tap</item>
+    </integer-array>
+-->
+    <integer-array name="nexus_more_articles">
+        <item>@drawable/nexus_6_more_articles</item>
+    </integer-array>
+
+    <!--integer-array name="nexus_compare_tap_tap">
+        <item>@drawable/nexus_compare_tap_tap</item>
+    </integer-array-->
+
+    <integer-array name="nexus_compatibility_config">
+        <item>@drawable/nexus_compatibility_config</item>
+    </integer-array>
+
+    <integer-array name="compatibility_phones">
+        <item>@layout/compatibility_phones</item>
+    </integer-array>
+1
+    <integer-array name="compatibility_settings">
+        <item>@layout/compatibility_settings</item>
+    </integer-array>
+
+    <integer-array name="buy_cart">
+        <item>@drawable/buy_cart</item>
+    </integer-array>
+
+    <integer-array name="buy_confirm">
+        <item>@drawable/cart_confirmation</item>
+    </integer-array>
+
+    <integer-array name="history">
+        <item>@layout/layout_history</item>
+    </integer-array>
+
+    <integer-array name="history_wholefoods">
+        <item>@layout/layout_history_wholefoods</item>
+    </integer-array>
+
+    <integer-array name="history_google">
+        <item>@layout/layout_history_google</item>
+    </integer-array>
+
+    <integer-array name="history_target">
+        <item>@layout/layout_history_target</item>
+    </integer-array>
+
+    <!--<integer-array name="history_more">-->
+        <!--<item>@layout/layout_history_more</item>-->
+    <!--</integer-array>-->
+
+    <integer-array name="lists">
+        <item>@layout/layout_my_lists</item>
+        <item>@layout/layout_followed_lists</item>
+        <item>@layout/layout_recommended_lists</item>
+    </integer-array>
+
+    <integer-array name="explore_store">
+        <item>@layout/layout_explore_store</item>
+    </integer-array>
+
+    <integer-array name="explore_store_target">
+        <item>@layout/layout_explore_store_target</item>
+    </integer-array>
+
+    <integer-array name="explore_store_wholefoods">
+        <item>@layout/layout_explore_store_wholefoods</item>
+    </integer-array>
+    <integer-array name="recipe_teriyaki">
+        <item>@layout/layout_recipe_teriyaki</item>
+
+    </integer-array>
+
+    <integer-array name="more_events">
+        <item>@layout/layout_more_events</item>
+    </integer-array>
+
+    <integer-array name="more_travel_lists">
+        <item>@drawable/lists_more_travel_lists</item>
+    </integer-array>
+
+    <integer-array name="more_lists">
+        <item>@drawable/lists_more_lists</item>
+    </integer-array>
+
+</resources>

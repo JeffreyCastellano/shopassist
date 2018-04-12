@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD212121"
+    android:layout_gravity="center"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_rect"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_rect"
+
+            >
+
+        <!-- add to list -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_rect"
+            android:padding="20dp"
+
+            android:id="@+id/layout_add_list_container"
+            >
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Add to List"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gsa_gray"
+                android:text="Pick from your existing lists or create a new list"
+                android:textSize="16sp"
+                android:layout_marginTop="12dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layout_existing_lists"
+                >
+
+                </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_gravity="left"
+                        android:id="@+id/layout_add_new_list"
+                        android:clickable="true"
+                        android:focusable="true"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_oval_plus"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="0dp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New List ..."
+
+                            android:textColor="@color/gsa_link_blue"
+                            android:textSize="16sp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="13dp"
+                            />
+
+                    </LinearLayout>
+            <ListView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/list_add_to_list"
+                >
+            </ListView>
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="74dp"
+                android:layout_height="36dp"
+                android:text="CANCEL"
+                android:textSize="12sp"
+                android:id="@+id/btn_cancel"
+                android:background="@drawable/ripple_image"
+                android:textColor="@color/gsa_gray"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right"
+                android:textAlignment="gravity"
+                android:fontFamily="sans-serif-medium"
+                />
+        </LinearLayout>
+
+        <!-- list added -->
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+            android:background="@drawable/rounded_rect"
+
+            android:id="@+id/layout_add_list_complete"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:src="@drawable/img_added_to_my_next_phone"
+                    />
+
+                    <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal"
+
+                        android:gravity="right"
+                        android:layout_gravity="right"
+                        >
+                        <Button
+                            android:layout_marginTop="20dp"
+                            android:layout_width="74dp"
+                            android:layout_height="36dp"
+                            android:text="OK"
+                            android:textSize="14sp"
+                            android:id="@+id/btn_ok"
+                            android:background="@drawable/ripple_image"
+                            android:textColor="@color/gsa_link_blue"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="right"
+                            android:textAlignment="gravity"
+                            android:fontFamily="sans-serif-medium"
+                            />
+                        <Button
+                            android:layout_marginTop="20dp"
+                            android:layout_width="74dp"
+                            android:layout_height="36dp"
+                            android:text="VIEW"
+                            android:textSize="14sp"
+                            android:id="@+id/btn_view"
+                            android:background="@drawable/ripple_image"
+                            android:textColor="@color/gsa_link_blue"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="right"
+                            android:textAlignment="gravity"
+                            android:fontFamily="sans-serif-medium"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+        <!-- list created-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/layout_add_list_create"
+            android:background="@drawable/rounded_rect"
+                >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Create a new list"
+                android:id="@+id/text_list_add_create"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_default_list"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_create_form"
+                android:orientation="vertical"
+                >
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:hint="List Name"
+                        android:id="@+id/edit_list_create_name"
+                        android:layout_margin="20dp"
+                        android:singleLine="true"
+                        android:textColorHint="@color/gsa_gray"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px" android:background="@color/gsa_gray"></View>
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkbox_add_list_create"
+                        android:text="Make list private"
+                        android:layout_margin="20dp"
+                        android:textColor="@color/black"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px" android:background="@color/gsa_gray"></View>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="68dp"
+                        android:orientation="horizontal"
+                        android:gravity="right"
+                        android:layout_gravity="right"
+                        >
+                        <Button
+
+                            android:layout_width="74dp"
+                            android:layout_height="36dp"
+                            android:text="CANCEL"
+                            android:textSize="14sp"
+                            android:id="@+id/btn_cancel_new_list"
+                            android:background="@drawable/ripple_image"
+                            android:textColor="@color/gsa_link_blue"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:textAlignment="gravity"
+                            android:fontFamily="sans-serif-medium"
+                            />
+                        <Button
+                            android:layout_width="74dp"
+                            android:layout_height="36dp"
+                            android:text="CREATE"
+                            android:textSize="14sp"
+                            android:id="@+id/btn_create_list"
+                            android:background="@drawable/ripple_image"
+                            android:textColor="@color/gsa_link_blue"
+                            android:gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:textAlignment="gravity"
+                            android:fontFamily="sans-serif-medium"
+                            />
+
+                    </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_add_list_created"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:background="@drawable/rounded_rect">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px" android:background="@color/gsa_gray"></View>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Gadgets"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:id="@+id/text_list_created"
+                    android:textSize="20sp"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gsa_gray"
+                    android:text="This list is public"
+                    android:id="@+id/text_list_created_public"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="20dp"
+
+                    android:layout_marginTop="8dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="68dp"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    >
+                    <Button
+
+                        android:layout_width="74dp"
+                        android:layout_height="36dp"
+                        android:text="OK"
+                        android:textSize="14sp"
+                        android:id="@+id/btn_ok_created"
+                        android:background="@drawable/ripple_image"
+                        android:textColor="@color/gsa_link_blue"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:textAlignment="gravity"
+                        android:fontFamily="sans-serif-medium"
+                        />
+                    <Button
+                        android:layout_width="74dp"
+                        android:layout_height="36dp"
+                        android:text="VIEW"
+                        android:textSize="14sp"
+                        android:id="@+id/btn_view_created"
+                        android:background="@drawable/ripple_image"
+                        android:textColor="@color/gsa_link_blue"
+                        android:gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:textAlignment="gravity"
+                        android:fontFamily="sans-serif-medium"
+                        />
+
+                </LinearLayout>
+
+
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

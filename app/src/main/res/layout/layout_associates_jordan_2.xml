@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.BaseCardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+        app:cardCornerRadius="3dp"
+        android:visibility="visible"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+
+
+        <ImageView style="@style/ImageFullWidth"
+            android:src="@drawable/associates_jordan_2"
+            android:onClick="onCardSectionClicked"
+            android:id="@+id/associates_jordan_2"
+            />
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</com.fa.google.shopassist.cards.BaseCardLayout>

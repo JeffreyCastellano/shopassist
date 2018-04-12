@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_marginBottom="30dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+    <com.fa.google.shopassist.FadeInLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_teriyaki"
+            />
+
+
+            <ImageButton
+                android:layout_margin="0dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_title_back"
+                android:layout_gravity="left|center_vertical"
+                android:id="@+id/btn_list_back"
+                android:onClick="onBtnTitleBackClicked"
+                android:background="@drawable/btn_ripple_bounded"
+                />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:text="Teriyaki Tofu and Mushrooms"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="66dp"
+            android:layout_marginTop="17dp"
+            android:textColor="@color/gsa_gray_darkest"
+            android:fontFamily="sans-serif-light"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="12dp"
+            android:text="Based on items in your cart"
+            android:textColor="@color/gsa_gray"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="4dp"
+            android:text="The combination of soy sauce and shiitake mushrooms gives this vegetarian dish an almost meaty flavor; watercress adds a peppery taste."
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+
+          <ImageView
+              style="@style/ImageFullWidth"
+              android:layout_marginTop="10dp"
+              android:layout_marginLeft="14dp"
+              android:layout_marginRight="14dp"
+              android:layout_gravity="center_horizontal"
+
+              />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="22dp"
+                android:background="@color/gsa_gray_light"></View>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="28dp"
+            android:text="Ingredients"
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            style="@style/ImageFullWidth"
+            android:src="@drawable/img_teriyaki_ingerdients"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="28dp"
+            android:text="Instructions"
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="1. Prepare Ingredients"
+            android:textColor="@color/gsa_gray_darkest"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:text="Arrange tofu in a single layer on a baking sheet lined with paper towels. Cover with more towels and another baking sheet; weight with a heavy skillet. Let drain until towels are soaked, about 15 minutes."
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="2. Prepare Sauce"
+            android:textColor="@color/gsa_gray_darkest"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:text="Meanwhile, make teriyaki sauce: Place ginger in a fine strainer; press to release juices into a bowl. Whisk in soy sauce, vinegar, sugar, cornstarch, and 1 cup water. "
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="26dp"
+            android:text="3. Heat"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/gsa_gray_darkest"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:text="In a large nonstick skillet, heat 1 tablespoon oil over medium heat. Cook half the tofu until golden brown, 4 to 6 minutes per side. Transfer to a plate. Repeat with remaining tofu."
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="26dp"
+            android:text="4. Combine"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/gsa_gray_darkest"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="12dp"
+            android:text="Heat remaining tablespoon oil in same skillet over medium heat. Cook mushrooms, stirring often, until browned, about 5 minutes. Add teriyaki sauce; bring to a boil. Cook until thickened, about 1 minute. Return tofu to pan; toss gently to coat. Serve with watercress. "
+            android:textColor="@color/gsa_gray_dark"
+            />
+
+
+        <View
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gsa_divider"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:src="@drawable/btn_find_store"
+                android:layout_weight=".33333"
+                android:background="@drawable/ripple_image"
+                android:onClick="onClickRecipeLocation"
+                android:scaleType="centerInside"
+
+                />
+
+            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/gsa_divider"></View>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/btn_add_all_items"
+                android:layout_weight=".33333"
+                android:background="@drawable/ripple_image"
+                android:scaleType="centerInside"
+                />
+
+            <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/gsa_divider"></View>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/btn_save_recipe"
+                android:layout_weight=".33333"
+                android:background="@drawable/ripple_image"
+                android:scaleType="centerInside"
+
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="0dp"
+            style="@style/ImageFullWidth"
+
+            android:src="@drawable/img_teriyaki_ad"
+            android:layout_marginBottom="20dp"
+            />
+
+    </com.fa.google.shopassist.FadeInLinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,266 @@
+{
+    "products":
+    [
+
+        {
+          "id"       : "nexus6",
+          "title"    : "Nexus 6",
+          "blurb"    : "Versatile 6-inch Quad HD display with round-the-clock battery life.",
+          "stars"    : 4.8,
+          "thumb"    : "images/products/nexus6_th.png",
+          "img"      : "images/products/nexus6_main.png",
+          "expanded" :"images/products/nexus6_expanded.png",
+          "details"  : "test",
+          "price"    : "649",
+          "list"     : "images/lists/list_nexus.png",
+          "2yearprice" : "199",
+          "type"     : "phone",
+          "cards"    : "nexus",
+          "configurations": {
+              "blue_32_unlocked"    : "649",
+              "blue_64_unlocked"    : "699",
+              "white_32_unlocked"   : "649",
+              "white_64_unlocked"   : "699"
+          }
+        },
+
+
+        {
+          "id"     : "galaxys5",
+          "title"  : "Samsung Galaxy S6",
+          "blurb"  : "Beyond the basics, this phone breaks boundaries with integrated technology that improves productivity, enhances work-life balance and delivers a very secure mobile experience.. -Samsung",
+          "stars"  : 4.2,
+          "thumb"  : "images/products/galaxys5_th.png",
+          "img"    : "images/products/galaxys6_main.jpg",
+          "expanded" :"images/products/galaxys6_expanded.png",
+          "details": "test",
+          "price"  : "749.99",
+          "list"     : "images/lists/list_galaxy.png",
+          "2yearprice" : "199",
+          "type"   : "phone",
+          "cards"    : "galaxys6"
+        },
+
+        {
+          "id"     : "moto360",
+          "title"  : "Moto 360",
+          "blurb"  : "Moto 360 stays true to the timeless form of the classic wristwatch. A round design maximizes the display area while ensuring a comfortable fit. - Google",
+          "stars"  : 4.8,
+          "thumb"  : "images/products/moto360_th.png",
+          "img"    : "images/products/moto360_main.png",
+          "details": "test",
+          "price"  : "349",
+          "list"     : "images/lists/list_moto.png",
+          "type"   : "wearable",
+          "cards"    : "moto"
+        },
+
+        {
+          "id"     : "bose",
+          "title"  : "Bose AE2 Headphones",
+          "blurb"  : "Quality Bose around- and on-ear headphones featuring lifelike sound and a lightweight, comfortable fit.",
+          "stars"  : 4.9,
+          "thumb"  : "images/products/bose_th.png",
+          "img"    : "images/products/bose_main.png",
+          "details": "test",
+          "price"  : "349",
+          "list"     : "images/lists/list_bose.png",
+          "type"   : "audio",
+          "cards"  : "bose"
+        },
+
+        {
+          "id"     : "nexus6_case",
+          "title"  : "Stand Folio Case",
+          "longtitle"  : "Stand Folio Case",
+          "blurb"  : "Beyond the basics, this phone breaks boundaries with integrated technology that improves productivity, enhances work-life balance and delivers a very secure mobile experience.. -Samsung",
+          "stars"  : 4.1,
+          "thumb"  : "images/products/stand_folio_th.png",
+          "img"    : "images/products/stand_folio_main.png",
+          "details": "test",
+          "price"  : "40",
+          "list"     : "images/lists/list_nexus_six_case.png",
+          "type"   : "case",
+          "cards"  : "nexus6_case"
+        },
+
+        {
+          "id"     : "seidio_case",
+          "title"  : "Seidio Ledger Flip Case",
+          "longtitle" :"Seidio Ledger Flip Case",
+          "blurb"  : "Beyond the basics, this phone breaks boundaries with integrated technology that improves productivity, enhances work-life balance and delivers a very secure mobile experience.. -Samsung",
+          "stars"  : 4.5,
+          "thumb"  : "images/products/seido_th.png",
+          "img"    : "images/products/seido_main.png",
+          "list"     : "images/lists/list_nexus_five_case.png",
+          "details": "test",
+          "price"  : "30",
+          "type"   : "case",
+
+          "cards"  : "nexus5_case"
+        },
+
+        {
+          "id"     : "sony_earbuds",
+          "title"  : "Sony Extra Bass Earbuds",
+          "blurb"  : "Beyond the basics, this phone breaks boundaries with integrated technology that improves productivity, enhances work-life balance and delivers a very secure mobile experience.. -Samsung",
+          "stars"  : 3.8,
+          "thumb"  : "images/products/sony_earbuds_th.png",
+          "img"    : "images/products/sony_earbuds_main.png",
+          "details": "test",
+          "price"  : "49.99",
+          "list"     : "images/lists/list_sony.png",
+          "type"   : "headphones",
+          "cards"  : "sony"
+        },
+
+        {
+          "id"     : "chromecast",
+          "title"  : "Chromecast",
+          "longtitle"  : "Chromecast by Google",
+          "blurb"  : "Beyond the basics, this phone breaks boundaries with integrated technology that improves productivity, enhances work-life balance and delivers a very secure mobile experience.. -Samsung",
+          "stars"  : 4.8,
+          "thumb"  : "images/products/chromecast_th.png",
+          "img"    : "images/products/chromecast_main.png",
+          "details": "test",
+          "price"  : "49",
+          "list"     : "images/lists/list_chromecast.png",
+          "type"   : "hardware",
+          "cards"  : "chromecast"
+        },
+
+        {
+          "id"     : "lg_watch",
+          "title"  : "LG G Watch R",
+          "blurb"  : "The 100% stainless steel body, round shape and multiple face options make this watch feel like a classic timepiece.",
+          "stars"  : 4.8,
+          "thumb"  : "images/products/lg_watch_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "details": "test",
+          "price"  : "299",
+          "list"     : "images/lists/list_lg.png",
+          "type"   : "watch",
+          "cards"    : "lg"
+        },
+
+        {
+          "id"     : "cognac",
+          "title"  : "Cognac Band",
+          "longtitle"  : "Cognac Band ",
+          "blurb"  : "High quality, replacement band for the Moto 360 smartwatch.",
+          "stars"  : 5,
+          "thumb"  : "images/products/cognac_th.png",
+          "img"    : "images/products/congnac_main.png",
+          "details": "test",
+          "price"  : "180",
+          "list"     : "images/lists/list_cognac.png",
+          "type"   : "watch",
+          "cards"   : "cognac"
+        },
+
+        {
+          "id"     : "travel_channel",
+          "title"  : "Travel Channel",
+          "blurb"  : "Travel Channel's brand begins with a bold, singular idea connecting people.",
+          "stars"  : 4,
+          "thumb"  : "images/products/travel_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "details": "test",
+          "price"  : "299",
+          "list"     : "images/lists/list_app_travel.png",
+          "type"   : "app",
+          "cards"  : "nexus"
+        },
+
+        {
+          "id"     : "watchmaker",
+          "title"  : "Watchmaker Watch Face",
+          "blurb"  : "WatchMaker is the most  powerful watch editor available!",
+          "stars"  : 5,
+          "thumb"  : "images/products/watchmaker_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "list"     : "images/lists/list_app_watchmaker.png",
+          "details": "test",
+          "price"  : "99",
+          "type"   : "app",
+          "cards"  : "watchmaker"
+        },
+
+        {
+          "id"     : "evernote",
+          "title"  : "Evernote for Android Wear",
+          "blurb"  : "Evernote for Android Wear puts notes and checklists at your fingers while your phone stays in your pocket.",
+          "stars"  : 4,
+          "thumb"  : "images/products/evernote_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "details": "test",
+          "price"  : "99",
+          "list"     : "images/lists/list_app_evernote.png",
+          "type"   : "app",
+          "cards"  : "evernote"
+        },
+
+        {
+          "id"     : "inbox",
+          "title"  : "Inbox by Gmail",
+          "blurb"  : "Inbox keeps things organized and helps you get back to what matters.",
+          "stars"  : 4.6,
+          "thumb"  : "images/products/inbox_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "list"     : "images/lists/list_app_inbox.png",
+          "details": "test",
+          "price"  : "99",
+          "type"   : "app",
+          "cards"  : "evernote"
+        }
+        ,
+
+        {
+          "id"     : "achieve",
+          "title"  : "Achieve Productivity",
+          "blurb"  : "Simple and reliable timer for people  who seek productivity solutions.",
+          "stars"  : 3.9,
+          "thumb"  : "images/products/achieve_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "list"     : "images/lists/list_app_achieve.png",
+          "details": "test",
+          "price"  : "99",
+          "type"   : "app",
+          "cards"  : "evernote"
+        }
+
+        ,
+
+        {
+          "id"     : "teriyaki",
+          "title"  : "Annie Chun’s Gluten Free Teriyaki",
+          "blurb"  : "Simple and reliable timer for people  who seek productivity solutions.",
+          "stars"  : 3.9,
+          "thumb"  : "images/products/achieve_th.png",
+          "img"    : "images/products/lg_watch_main.png",
+          "list"     : "images/lists/list_app_achieve.png",
+          "details": "test",
+          "price"  : "6.49",
+          "type"   : "app",
+          "cards"  : "evernote"
+        },
+
+        {
+          "id"     : "jacket",
+          "title"  : "Men’s Colorblocked Jacket",
+          "blurb"  : "Simple and reliable timer for people  who seek productivity solutions.",
+          "stars"  : 3.9,
+          "thumb"  : "images/products/achieve_th.png",
+          "img"    : "images/products/jacket_main.png",
+          "list"     : "images/lists/list_app_achieve.png",
+          "details": "test",
+          "price"  : "29.99",
+          "type"   : "app",
+          "cards"  : "evernote"
+        }
+
+
+
+    ]
+
+}

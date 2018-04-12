@@ -1,0 +1,209 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.fa.google.shopassist.CartFragment"
+    android:background="@color/gsa_bg"
+    >
+
+    <RelativeLayout android:id="@+id/cart_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+
+        <com.fa.google.shopassist.FadeInLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:background="@color/transparent"
+                android:src="@drawable/ic_cart_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="There are no items in your cart."
+                android:textColor="@color/gsa_gray_darkest"
+                android:textSize="48px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                />
+
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView android:id="@+id/cart_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <com.fa.google.shopassist.FadeInLinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="80dp"
+            >
+
+            <LinearLayout android:id="@+id/cart_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:orientation="vertical"
+                android:background="@color/gsa_light_gray_blue"
+                android:paddingBottom="48dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="24dp"
+                    android:paddingBottom="24dp"
+                    >
+
+                    <TextView
+                        android:text="Cart Subtotal"
+                        android:textColor="@color/gsa_gray_dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        />
+
+                    <TextView android:id="@+id/txt_subtotal"
+                        android:text="$0.00"
+                        android:textColor="@color/gsa_gray_dark"
+                        android:textSize="36px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gsa_divider"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:id="@+id/layout_cart_buy"
+                    android:visibility="gone"
+
+                    >
+
+                    <ImageButton
+                        android:background="@color/transparent"
+                        android:src="@drawable/btn_ship_to_me"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="nexus6"
+                        android:layout_alignParentLeft="true"
+                        />
+                    <!--android:onClick="shipToMe"-->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_alignParentRight="true"
+                        >
+
+                        <ImageButton
+                            android:src="@drawable/btn_pickup_in_store"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="pickupInStore"
+                            android:background="?android:attr/selectableItemBackground"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="With this option, you will not be charged until you pick up your merchandise."
+                                android:textColor="@color/gsa_gray_light"
+                                android:textSize="10sp"
+                                android:textStyle="italic"
+                                android:layout_marginTop="8dp"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="vertical"
+            android:background="@color/gsa_light_gray_blue"
+            android:paddingBottom="48dp"
+            android:id="@+id/layout_cart_express_buy"
+
+            >
+
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cart_visa"
+                android:layout_gravity="center_horizontal"
+                />
+
+            <ImageButton
+                android:layout_marginTop="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/express_buy"
+                android:background="@color/transparent"
+                android:id="@+id/btn_cart_express_buy"
+                />
+
+
+            <TextView
+                android:text="With this option you will be charged immediately and can exit the store without visting checkout."
+                android:textColor="@color/gsa_gray_light"
+                android:textSize="10sp"
+                android:textStyle="italic"
+                android:layout_marginTop="28dp"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            </LinearLayout>
+
+
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

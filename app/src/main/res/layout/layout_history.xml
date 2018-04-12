@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/expand_history_layout"
+    >
+
+
+
+    <com.fa.google.shopassist.FadeInLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-24dp"
+                android:orientation="vertical"
+                >
+
+       <ImageView style="@style/ImageFullWidthTappable"
+                android:src="@drawable/history_1"
+                />
+        <ImageView style="@style/ImageFullWidthTappable"
+                android:src="@drawable/history_1_wholefoods"
+                android:onClick="onCardClicked"
+                android:id="@+id/img_history_1_whole_foods"
+                />
+
+        <ImageView style="@style/ImageFullWidthTappable"
+                android:src="@drawable/history_1_target"
+                android:onClick="onCardClicked"
+                android:id="@+id/img_history_1_target"
+                />
+
+
+        <ImageView style="@style/ImageFullWidthTappable"
+                android:src="@drawable/history_1_google"
+                android:id="@+id/img_history_1_google"
+                android:onClick="onCardClicked"
+                />
+
+
+
+    </com.fa.google.shopassist.FadeInLinearLayout>
+
+
+</RelativeLayout>

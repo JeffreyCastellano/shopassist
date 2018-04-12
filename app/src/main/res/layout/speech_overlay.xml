@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000"
+    android:id="@+id/layout_speakresults_holder"
+
+    >
+
+    <!-- speak results -->
+    <RelativeLayout
+        android:id="@+id/layout_speakresults"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="@color/white"
+        android:translationZ="40dp"
+        android:elevation="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speak Now"
+            android:textSize="24dp"
+            android:textColor="@color/gsa_gray_dark"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="228dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/text_speakresults"
+            />
+
+        <ImageButton
+
+            android:layout_margin="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_x_sm"
+            android:id="@+id/btn_close_speak"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,263 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fa.google.shopassist.ConfigureFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gsa_light_gray_blue"
+        android:id="@+id/config_scroll"
+        android:paddingTop="139dp"
+
+        >
+
+        <com.fa.google.shopassist.FadeInLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="48dp"
+            android:paddingTop="80dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+
+                >
+
+                <TextView
+                    android:text="COLORS"
+                    android:textColor="@color/gsa_gray_dark"
+                    android:textSize="42px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    >
+
+                    <ImageButton android:id="@+id/configure_blue"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:src="@drawable/cart_configure_nexus_blue_off"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <ImageButton android:id="@+id/configure_white"
+                        android:background="@color/transparent"
+                        android:src="@drawable/cart_configure_nexus_white_off"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"
+                android:layout_marginTop="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:text="STORAGE"
+                    android:textColor="@color/gsa_gray_dark"
+                    android:textSize="42px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginBottom="13dp"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton android:id="@+id/configure_32"
+                        android:background="@color/transparent"
+                        android:src="@drawable/cart_configure_32_off"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        />
+
+                    <ImageButton android:id="@+id/configure_64"
+                        android:background="@color/transparent"
+                        android:src="@drawable/cart_configure_64_off"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"
+                android:layout_marginTop="16dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:text="CONTRACT"
+                    android:textColor="@color/gsa_gray_dark"
+                    android:textSize="42px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="19dp"
+
+                    />
+
+                <!--CONTRACT-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    >
+
+                    <TextView
+                        android:text="2 year contract or carrier financing"
+                        android:textColor="@color/gsa_gray_darkest"
+                        android:textSize="42px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton android:id="@+id/configure_att"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:src="@drawable/cart_configure_nexus_att_off"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            />
+
+                        <ImageButton android:id="@+id/configure_sprint"
+                            android:background="?android:attr/selectableItemBackground"
+
+                            android:src="@drawable/cart_configure_nexus_sprint_off"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                        <ImageButton android:id="@+id/configure_verizon"
+                            android:background="?android:attr/selectableItemBackground"
+
+                            android:src="@drawable/cart_configure_nexus_verizon_off"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <!--UNLOCKED-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Unlocked and contract free"
+                        android:textColor="@color/gsa_gray_darkest"
+                        android:textSize="42px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageButton android:id="@+id/configure_tmobile"
+                            android:background="@color/transparent"
+                            android:src="@drawable/cart_configure_nexus_tmobile_off"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            />
+
+                        <ImageButton android:id="@+id/configure_simfree"
+                            android:background="@color/transparent"
+                            android:src="@drawable/cart_configure_nexus_simfree_off"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                />
+
+            <ImageButton android:id="@+id/configure_continue"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/cart_configure_nexus_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+                android:alpha=".4"
+                />
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView android:id="@+id/configure_header"
+        android:background="@color/transparent"
+        android:src="@drawable/cart_nexus_configure_none"
+        style="@style/ImageFullWidth" />
+</FrameLayout>

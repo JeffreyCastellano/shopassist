@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.TouchLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        style="@style/Card"
+        app:cardCornerRadius="3dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/card"
+        android:background="@color/white"
+        >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+
+            <ImageView style="@style/Image"
+                android:src="@drawable/srp_screen_1a"
+                />
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="300"
+                app:product="Samsung Galaxy S6"
+                app:thumb="images/products/galaxys6_th.png"
+                app:value="577"
+                app:total="630"
+                app:ending="PPI"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="400"
+                app:product="LG G3"
+                app:thumb="images/products/lg_g3_th.png"
+                app:value="534"
+                app:total="630"
+                app:ending="MP"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="500"
+                app:product="Samsung Galaxy Note"
+                app:thumb="images/products/note_th.png"
+                app:value="515"
+                app:total="630"
+                app:ending="MP"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="600"
+                app:product="HTC One M8"
+                app:thumb="images/products/htc_th.png"
+                app:value="441"
+                app:total="630"
+                app:ending="MP"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+
+
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="700"
+                app:product="Sony Xperia Z3"
+                app:thumb="images/products/sony_xperia_h.png"
+                app:value="434"
+                app:total="630"
+                app:ending="MP"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+
+            <com.fa.google.shopassist.PercentBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:delay="800"
+                app:product="Moto X"
+                app:thumb="images/products/moto_x_th.png"
+                app:value="424"
+                app:total="630"
+                app:ending="MP"
+                app:hide_line="true"
+                >
+
+                <include layout="@layout/layout_progress_screen"></include>
+
+            </com.fa.google.shopassist.PercentBarLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"
+                ></View>
+
+
+          <include layout="@layout/layout_show_more"></include>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.TouchLayout>

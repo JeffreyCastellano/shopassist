@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shop Assist</string>
+    <string name="gsa_prefs">gsa_prefs</string>
+    <string name="app_tagline">Retail that works for you.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_lists">ListsActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+
+
+    <string name="toast_crash">Something went wrong :( But no worries, a report has been sent to help fix the issue.</string>
+
+
+</resources>

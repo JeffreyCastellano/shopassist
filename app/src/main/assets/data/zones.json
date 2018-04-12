@@ -1,0 +1,112 @@
+{
+    "zones":[
+
+
+
+        {
+                    "id"    : "googleplay",
+                    "title" : "Google",
+                    "notification_title":"Welcome to Google shop",
+                    "notification_subtitle":"Personalize your visit with Shop Assist!",
+                    "details" : "Let’s talk phones. Tap any\n shop tag to get some advice.",
+                    "color_primary_dark" : "FF1BAAE2",
+                    "color_primary": "FF2BC4FF",
+                    "locations" : [
+
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"edcd11eb8c30"
+                      },
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"c0050a02d5c6"
+                      },
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"dde094f232a6"
+                      }
+
+
+
+
+
+                    ]
+        },
+
+        {
+                    "id"    : "wholefoods",
+                    "title" : "Whole Foods",
+                    "notification_title":"Welcome to Whole Foods",
+                    "notification_subtitle":"Tap for your personal shopping assistant!",
+                    "details" : "Let’s talk phones. Tap any\n shop tag to get some advice.",
+                    "color_primary_dark" : "FF1BAAE2",
+                    "color_primary": "FF2BC4FF",
+                    "locations" : [
+
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"ea11a1e67313"
+                      },
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"f4b1cdb0f2f2"
+                      },
+                      {
+                        "major":"edd1ebeac04e5defa017",
+                        "minor":"c8e9705a6f9d"
+                      }
+
+
+                    ]
+        },
+
+         {
+                            "id"    : "target",
+                            "title" : "Target",
+                            "notification_title":"Welcome to Target",
+                            "notification_subtitle":"Personal picks are just a tap away!",
+                            "details" : "Let’s talk phones. Tap any\n shop tag to get some advice.",
+                            "color_primary_dark" : "FF1BAAE2",
+                            "color_primary": "FF2BC4FF",
+                            "locations" : [
+
+                              {
+                                "major":"edd1ebeac04e5defa017",
+                                "minor":"ca4c1d5c61b7"
+                              },
+                              {
+                                "major":"eddd1ebeac04e5defa99",
+                                "minor":"c9f3040560d7"
+                              },
+                              {
+                                "major":"edd1ebeac04e5defa017",
+                                "minor":"f54042eccdc1"
+                              }
+
+
+                            ]
+                },
+
+
+
+                {
+                            "id"    : "welcome",
+                            "title" : "welcome",
+                            "notification_title":"Welcome",
+
+                          "details" : "Lets do this..",
+                            "color_primary_dark" : "FF1BAAE2",
+                            "color_primary": "FF2BC4FF",
+                            "locations" : [
+
+
+
+                              {
+
+                                "major":"edd1ebeac04e5defa017",
+                                "minor":"ea11a1e67313"
+                              }
+                            ]
+                            }
+    ]
+}

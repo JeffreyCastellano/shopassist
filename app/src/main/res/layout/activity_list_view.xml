@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gsa_light_gray_blue"
+    tools:context="com.fa.google.shopassist.ListViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_list_view_header"
+            android:src="@drawable/img_jet_set_list"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_jet_set_followers"
+            android:visibility="gone"
+            />
+        <ListView
+            android:layout_marginTop="1px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_listview"
+            android:dividerHeight="1px"
+
+            >
+        </ListView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="15dp"
+        android:text="JET Set"
+        android:textSize="34sp"
+        android:id="@+id/text_list_view_title"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_title_back"
+            android:background="@drawable/btn_back_ripple"
+            android:layout_gravity="left|center_vertical"
+            android:padding="10dp"
+            android:focusable="true"
+            android:clickable="true"
+            android:gravity="left|center_vertical"
+            android:id="@+id/btn_list_back"
+
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_view_list"
+            >
+
+
+
+            </ListView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="right"
+            >
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_share"
+                android:background="?android:selectableItemBackground"
+                android:padding="10dp"
+                android:id="@+id/btn_list_share"
+                />
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="center"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_three_dots"
+                android:background="?android:selectableItemBackground"
+                android:padding="10dp"
+                android:id="@+id/btn_list_dots"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

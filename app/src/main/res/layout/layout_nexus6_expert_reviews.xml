@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.ExpertReviewCard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:background="?android:selectableItemBackground"
+    >
+    <!--android:onClick="onCardClicked"-->
+
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+
+        >
+
+        <com.fa.google.shopassist.cards.ExpandableLayout style="@style/ExpandableLayout">
+
+            <ImageView
+                style="@style/ImageFullWidth"
+                android:id="@+id/btn_img_card1"
+                android:src="@drawable/nexus_6a"
+                android:focusable="true"
+                android:onClick="onExpertReviewClick"
+                android:tag="http://www.cnet.com/products/google-nexus-6-review"
+                />
+            <ImageView
+                style="@style/ImageFullWidth"
+                android:id="@+id/btn_img_card2"
+                android:src="@drawable/nexus_6b"
+                android:focusable="true"
+                android:onClick="onExpertReviewClick"
+                android:tag="http://www.theverge.com/2014/11/12/7200705/nexus-6-review"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_img_card3"
+                android:src="@drawable/nexus_6c"
+                android:focusable="true"
+                android:onClick="onExpertReviewClick"
+                android:tag="http://www.engadget.com/products/motorola/nexus/6"
+                />
+
+            <ImageView style="@style/ImageFullWidthTappable"
+                android:id="@+id/expandable_layout_expand"
+                android:src="@drawable/btn_more_expert_reviews"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expandable_layout_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/nexus_expert_reviews_expanded"
+                    />
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/btn_show_less"
+                    android:id="@+id/expandable_layout_collapse"
+                    />
+
+            </LinearLayout>
+
+        </com.fa.google.shopassist.cards.ExpandableLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.ExpertReviewCard>

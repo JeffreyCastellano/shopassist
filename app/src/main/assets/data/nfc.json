@@ -1,0 +1,16 @@
+{
+    nfc:[
+        {
+            "id":"nexus6",
+            "product_id":"nexus6"
+        },
+        {
+            "id":"samsungs5",
+            "product_id":"samsungs5"
+        },
+        {
+            "id":"moto",
+            "product_id":"moto"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gsa_bg"
+    tools:context="com.fa.google.shopassist.SplashActivity"
+    android:onClick="launch"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:clickable="true"
+
+        >
+
+        <ImageButton android:id="@+id/btn_splash"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:onClick="launch"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/transparent"
+
+            />
+
+        <TextView android:id="@+id/app_name"
+            android:text="@string/app_name"
+            android:textColor="#6D6D6D"
+            android:textSize="96px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_splash"
+            android:layout_marginTop="16dp"
+            />
+
+        </LinearLayout>
+
+</RelativeLayout>

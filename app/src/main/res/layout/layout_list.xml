@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gsa_light_gray_blue"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img_list_view_main_header"
+        android:transitionName="headerimage"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_top_fade"
+        android:id="@+id/img_fade"
+        />
+
+
+
+    <View
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="?attr/colorPrimary" />
+
+    <View
+        android:id="@+id/list_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1px"
+        android:id="@+id/list_listview"
+        android:layout_weight="1"
+        android:divider="@color/gsa_gray"
+        android:clipToPadding="false"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="16dp"
+        android:gravity="bottom|left"
+        android:textAlignment="gravity"
+        android:text="JET Set"
+        android:textSize="34sp"
+        android:id="@+id/text_list_view_title"
+        android:fontFamily="sans-serif-light"
+        android:shadowColor="#77000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="16dp"
+        android:text="5 followers"
+        android:textSize="12sp"
+        android:id="@+id/text_list_view_subtitle"
+        android:fontFamily="sans-serif"
+        android:shadowColor="#77000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        />
+
+
+    <!--FOLLOWERS -->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_list_follow"
+        android:visibility="visible"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:id="@+id/img_followers"
+
+            />
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="114dp"
+            android:layout_height="34dp"
+            android:background="@drawable/btn_follow_toggle"
+            android:layout_margin="10dp"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+    <!--ACTION ITEMS -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/transparent"
+        android:id="@+id/ll_list_nav"
+        >
+
+
+        <ImageButton
+            android:layout_margin="0dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_title_back"
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/btn_list_back"
+            android:onClick="onBtnTitleBackClicked"
+            android:background="@drawable/btn_ripple_bounded"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:gravity="right"
+
+            >
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+
+                android:src="@drawable/ic_share"
+                android:background="@drawable/btn_ripple_bounded"
+                android:padding="10dp"
+                android:id="@+id/btn_list_share"
+                />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="center"
+
+                android:src="@drawable/ic_three_dots"
+                android:background="@drawable/btn_ripple_bounded"
+                android:padding="10dp"
+                android:id="@+id/btn_list_dots"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

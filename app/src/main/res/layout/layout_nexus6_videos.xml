@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.VideoCard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:background="?android:selectableItemBackground"
+    >
+    <!--android:onClick="onCardClicked"-->
+
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+
+        >
+
+        <com.fa.google.shopassist.cards.ExpandableLayout style="@style/ExpandableLayout">
+
+            <ImageView style="@style/ImageFullWidthTappable"
+                android:id="@+id/btn_img_card"
+                android:src="@drawable/nexus_video"
+                />
+
+            <ImageView style="@style/ImageFullWidthTappable"
+                android:id="@+id/expandable_layout_expand"
+                android:src="@drawable/btn_more_videos"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expandable_layout_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/nexus_videos_expanded"
+                    />
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/btn_show_less"
+                    android:id="@+id/expandable_layout_collapse"
+                    />
+
+            </LinearLayout>
+
+        </com.fa.google.shopassist.cards.ExpandableLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.VideoCard>

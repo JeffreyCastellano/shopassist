@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gsa_divider"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="102dp"
+        android:id="@+id/progress_loader_divider"
+        ></View>
+
+    <ImageView style="@style/Image"
+        android:layout_width="104dp"
+        android:layout_height="102dp"
+        android:padding="19dp"
+        android:id="@+id/img_progress_th"
+        />
+
+    <TextView
+        android:id="@+id/text_progress_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="104dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="25dp"
+        android:alpha=".85"
+        />
+
+    <ImageView
+        android:src="@drawable/rounded_rect_gray"
+        android:layout_width="224dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="104dp"
+        android:id="@+id/imgFull"
+        />
+
+    <ImageView
+        android:src="@drawable/rounded_gradient_rect_pink"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="104dp"
+        android:id="@+id/imgPercent"
+        />
+
+
+    <TextView
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_value"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="260dp"
+        android:textColor="@color/gsa_gray_light"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:text="577 PPI"
+        />
+</merge>

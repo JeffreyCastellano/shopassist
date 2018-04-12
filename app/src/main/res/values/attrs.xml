@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ListsCard">
+        <attr name="list_title" format="string" />
+        <attr name="list_data" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PercentBarLayout">
+        <attr name="ending" format="string" />
+        <attr name="total" format="float" />
+        <attr name="value" format="integer" />
+        <attr name="delay" format="integer" />
+        <attr name="thumb" format="string"/>
+        <attr name="hide_line" format="boolean"/>
+        <attr name="product" format="string" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/associates_matthew_3a"
+        android:onClick="onCardSectionClicked"
+        />
+
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/associates_matthew_3b"
+        android:onClick="onCardSectionClicked"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+
+
+    <color name="primary">#7C4DFF</color>
+    <color name="primary_dark">#6A45D5</color>
+    <color name="accent">#4DD0E1</color>
+    <color name="gsa_link_blue">#2196F3</color>
+    <color name="primary_soft">#117C4DFF</color>
+
+
+
+    <color name="gsa_bg">#F1F4F7</color>
+
+    <color name="gsa_dark_gray">#212121</color>
+    <color name="gsa_light_gray_blue">#F1F4F7</color>
+
+    <color name="gsa_divider">#DEDEDE</color>
+
+    <color name="gsa_gray_lightest">#D5D5D6</color>
+    <color name="gsa_gray_light">#BDBDBD</color>
+    <color name="gsa_gray">#9E9E9E</color>
+    <color name="gsa_gray_dark">#757575</color>
+    <color name="gsa_gray_darkest">#212121</color>
+
+    <color name="gsa_blue">#0D93F6</color>
+    <color name="gsa_green">#4CAF50</color>
+    <color name="gsa_orange">#EC7200</color>
+    <color name="gsa_purple">#7C42FF</color>
+
+</resources>
+

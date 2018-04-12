@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!--<com.fa.google.shopassist.FadeInLinearLayout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-24dp"
+        android:orientation="vertical"
+        >
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/compatibility_phones_a"
+        android:onClick="onProductClicked"
+        android:tag="galaxys5"
+        />
+
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/compatibility_phones_b"
+        android:onClick="onProductClicked"
+        android:tag="nexus6"
+        />
+
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/compatibility_phones_c"
+        />
+    </LinearLayout>
+    <!--</com.fa.google.shopassist.FadeInLinearLayout>-->
+
+</RelativeLayout>

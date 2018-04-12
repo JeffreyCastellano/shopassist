@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fa.google.shopassist.setup.HomeScreen">
+
+
+     <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scaleType="fitXY"
+          android:src="@drawable/img_home_screen"
+          />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            android:background="#00FFFFFF"
+            android:id="@+id/btn_launch_app"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layout_pull_down_container"
+                android:onClick="onClickDead"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#BB000000"
+                    android:id="@+id/img_home_pulldown_bg"
+                    ></View>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/layout_home_pulldown"
+                    >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_home_pulldown"
+                    android:id="@+id/img_quicksettings_pulldown"
+                    />
+                <ImageButton
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:scaleType="centerInside"
+                    android:id="@+id/btn_shopping_mode_toggle"
+                    android:src="@drawable/ic_home_shopping_toggle_off"
+                    android:background="@drawable/btn_ripple_bounded_med"
+                    android:layout_marginStart="122dp"
+                    android:clickable="true"
+                    android:layout_alignBottom="@+id/img_quicksettings_pulldown"
+                    android:layout_marginBottom="4dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                </RelativeLayout>
+             </RelativeLayout>
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BB000000"
+        android:id="@+id/layout_home_overlay"
+        android:visibility="gone"
+
+        >
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_home_overlay"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GOT IT"
+            android:textColor="@color/gsa_link_blue"
+
+            android:elevation="0dp"
+            android:layout_marginRight="47dp"
+            android:layout_marginBottom="233dp"
+            android:id="@+id/btn_home_overlay_gotit"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+{
+    stores:[
+        {
+            "id":"googleplay",
+            "name":"Google Store"
+        },
+
+        {
+            "id":"wholefoods",
+            "name":"Whole Foods"
+        },
+
+        {
+            "id":"target",
+            "name":"Target"
+        }
+
+    ]
+}

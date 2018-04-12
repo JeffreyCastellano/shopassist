@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.fa.google.shopassist.FadeInLinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-24dp"
+        >
+
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_1"
+        android:id="@+id/more_events_1"
+        android:onClick="onCardClicked"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_2"
+        android:id="@+id/more_events_2"
+        android:onClick="onCardClicked"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_3"
+        android:id="@+id/more_events_3"
+        android:onClick="onCardClicked"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_4"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_5"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_6"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_7"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_8"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_9"
+        />
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/more_events_10"
+        />
+
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+</RelativeLayout>

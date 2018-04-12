@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="1"
+    android:id="@+id/layout_tab_map2d"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- -->
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="#EDEBE6"-->
+        <!-->-->
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/img_store_map"-->
+        <!--android:scaleType="matrix"-->
+        <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:id="@+id/img_your_location"-->
+            <!--android:src="@drawable/ic_map_location"-->
+            <!--/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/gsa_gray"-->
+            <!--android:id="@+id/layout_calibrate"-->
+            <!--android:visibility="gone"-->
+            <!-->-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:textColor="@color/primary"-->
+                <!--android:text="Calibrate For Better Accuracy"-->
+                <!--/>-->
+            <!--</RelativeLayout>-->
+
+        <!-- -->
+        <!--</RelativeLayout>-->
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.fa.google.shopassist.map.ShopMapFragment" />
+
+
+        <ImageView
+            style="@style/ImageFullWidth"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/img_map_recipe_ad"
+            android:visibility="gone"
+            android:id="@+id/img_recipe_ad"
+            />
+    </RelativeLayout>
+</LinearLayout>

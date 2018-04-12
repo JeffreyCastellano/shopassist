@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.TimsWishListCard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:background="?android:selectableItemBackground"
+    >
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+        app:cardCornerRadius="3dp"
+        android:visibility="visible"
+        >
+
+        <com.fa.google.shopassist.cards.ExpandableLayout style="@style/ExpandableLayout">
+
+            <ImageView
+                style="@style/ImageFullWidth"
+                android:src="@drawable/home_4a"
+                />
+
+            <ImageView
+                style="@style/ImageFullWidth"
+                android:id="@+id/home_4b"
+                android:src="@drawable/home_4b"
+                />
+
+            <ImageView
+                style="@style/ImageFullWidth"
+                android:id="@+id/home_4c"
+                android:src="@drawable/home_4c"
+                />
+
+            <ImageView
+                style="@style/ImageFullWidthTappable"
+                android:src="@drawable/home_4d"
+                android:id="@+id/expandable_layout_expand"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/expandable_layout_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/home_4_expand_a"
+                    android:id="@+id/home_4d"
+                    android:onClick="dummy"
+                    />
+
+                <ImageView style="@style/ImageFullWidthTappable"
+                    android:src="@drawable/home_show_less"
+                    android:id="@+id/expandable_layout_collapse"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:id="@+id/layout_more"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_arrow_blue"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="19dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More lists"
+                    android:textColor="@color/gsa_link_blue"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="1"
+                    />
+
+                </LinearLayout>
+
+        </com.fa.google.shopassist.cards.ExpandableLayout>
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.TimsWishListCard>

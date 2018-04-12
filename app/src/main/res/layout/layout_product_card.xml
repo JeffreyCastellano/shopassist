@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fa.google.shopassist.cards.ProductCard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView style="@style/Card"
+        android:id="@+id/card"
+        android:transitionName="card_nexus_6"
+
+        >
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D7DFE5"
+        android:orientation="vertical"
+        android:id="@+id/layout_details"
+
+        >
+
+         <!--MAIN PRODUCT IMAGE-->
+
+         <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:id="@+id/img_product_main"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+         />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="17dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textColor="@color/black"
+                 android:textSize="24sp"
+                 android:fontFamily="sans-serif-light"
+                 android:text="Google Nexus 6"
+                 android:id="@+id/text_product_title"
+                 android:layout_marginLeft="24dp"
+
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_in_stock"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="3dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="18dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gsa_gray"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif"
+                        android:text="Unlocked"
+                        android:id="@+id/text_unlocked_product"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gsa_green"
+                        android:textSize="17sp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="$649"
+                        android:id="@+id/text_product_price"
+                        android:layout_marginLeft="24dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout_2year"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gsa_gray"
+                        android:textSize="12sp"
+                        android:fontFamily="sans-serif"
+                        android:text="2 Year Contract"
+                        android:layout_marginLeft="24dp"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gsa_green"
+                        android:textSize="17sp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="$249"
+                        android:id="@+id/text_product_price_2year"
+                        android:layout_marginLeft="24dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gsa_divider"></View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_add_list"
+                        android:layout_weight=".33333"
+                        android:background="@drawable/ripple_image"
+                        android:id="@+id/btn_product_add_to_list"
+                        />
+
+                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/gsa_divider"></View>
+
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_compare"
+                        android:layout_weight=".33333"
+                        android:background="@drawable/ripple_image"
+                        android:id="@+id/btn_product_compare"
+                        />
+                    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="@color/gsa_divider"></View>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/btn_share"
+                        android:layout_weight=".33333"
+                        android:background="@drawable/ripple_image"
+                        android:id="@+id/btn_product_share"
+                        />
+
+                    </LinearLayout>
+
+
+
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gsa_divider"></View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gsa_gray"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="27dp"
+                android:singleLine="false"
+                android:lineSpacingExtra="1dp"
+                android:id="@+id/text_product_excerpt"
+                android:text="Versatile 6-inch Quad HD display is great for movies, videos, gaming, e-books, and surfing the web, with round-the-clock battery life. - Google"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_one_up"
+                android:layout_marginLeft="23dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <View style="@style/Divider" android:id="@+id/more_divider" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/img_product_expanded"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                        />
+
+            <View style="@style/Divider"
+                android:id="@+id/less_divider"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:id="@+id/layout_product_expand"
+                android:clickable="true"
+                android:background="@drawable/ripple_image"
+                >
+
+                <ImageView
+                    android:layout_marginLeft="24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_chevron"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/img_product_chevron"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More about Nexus 6"
+                    android:id="@+id/text_product_more"
+                    android:textColor="@color/gsa_gray"
+                    android:textSize="14sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="24dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+     </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="252dp"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="right"
+        android:layout_width="61dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_cart_add"
+        android:clickable="true"
+        android:scaleType="fitCenter"
+        android:id="@+id/btn_product_buy"
+        android:background="@drawable/btn_but_ripple"
+
+        />
+
+    </android.support.v7.widget.CardView>
+
+</com.fa.google.shopassist.cards.ProductCard>

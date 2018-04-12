@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-24dp"
+    >
+
+
+    <com.fa.google.shopassist.FadeInLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-24dp"
+
+        >
+
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/associates_list_jordan"
+        android:onClick="onCardSectionClicked"
+        android:tag="associate_jordan"
+        />
+
+    <ImageView style="@style/ImageFullWidthTappable"
+        android:src="@drawable/associates_list_matthew"
+        android:onClick="onCardSectionClicked"
+        android:tag="associate_matthew"
+        />
+
+    <ImageView style="@style/ImageFullWidth"
+        android:src="@drawable/associates_list_all"
+        />
+        </com.fa.google.shopassist.FadeInLinearLayout>
+
+</RelativeLayout>
